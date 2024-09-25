@@ -1,0 +1,31 @@
+.stakeholder__list {
+  list-style: circle;
+  padding-left: 1rem;
+  margin: 0 0 1.5em 0;
+}
+
+.stakeholder__title {
+  font-weight: 600;
+  margin: 0 0 1.5em 0;
+  color: var(--main-color);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: var(--main-color);
+  color: white;
+}

@@ -1,0 +1,10 @@
+.fuente {
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 1rem;
+  text-align: left;
+  text-indent: -1rem;
+}
+
+.fuente__titulo {
+  font-style: italic;
+}

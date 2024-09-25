@@ -1,0 +1,27 @@
+.about__section {
+  width: 100%;
+}
+
+.about__title {
+  color: var(--title-color);
+  font-size: var(--fz-xxl);
+  font-weight: 600;
+  margin: 2rem 0;
+}
+
+.about__card {
+  background-color: var(--container-color);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  margin: 1rem 0;
+  display: flex;
+  gap: 1rem;
+  box-shadow: var(--container-shadow);
+  justify-content: center;
+  align-items: center;
+}
+
+.about__card-video {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
