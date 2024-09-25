@@ -9,6 +9,7 @@ import { ProblemTree } from "./pages/ProblemTree";
 import { ObjectivesTree } from "./pages/ObjectivesTree";
 
 function App() {
+  console.log("Qué haces aquí? 🤨");
   return (
     <>
       <BrowserRouter>
