@@ -42,6 +42,21 @@ export function Navbar() {
               Árbol de Objetivos
             </Link>
           </li>
+          <li className="nav__list-item">
+            <Link onClick={handlerToggle} to="/analisis-de-alternativas">
+              Análisis de Alternativas
+            </Link>
+          </li>
+          <li className="nav__list-item">
+            <Link onClick={handlerToggle} to="/analisis-de-prefactibilidad">
+              Análisis de Prefactibilidad
+            </Link>
+          </li>
+          <li className="nav__list-item">
+            <Link onClick={handlerToggle} to="/matriz-de-marco-logico">
+              Matriz de marco lógico
+            </Link>
+          </li>
           {/* <li className="nav__list-item">
             <Link onClick={handlerToggle} to="/bibliografia">
               Bibliografía

@@ -1,4 +1,3 @@
-import "./StakeholderAnalysis.css";
 import tree from "../../public/problem-tree.png";
 
 export function ProblemTree() {

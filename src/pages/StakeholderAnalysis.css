@@ -29,3 +29,8 @@ th {
   background-color: var(--main-color);
   color: white;
 }
+
+.table-container,
+.stakeholder-container {
+  width: 100%;
+}

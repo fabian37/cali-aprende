@@ -18,7 +18,6 @@ export function Home() {
           merece contar con las herramientas necesarias para aprender y crecer,
           sin importar sus circunstancias económicas.
         </p>
-        <p>Conoce un poco más sobre nosotros con el siguiente caso de éxito</p>
         <Link to="/nosotros" className="hero__button">
           Conoce nuestro equipo
         </Link>
