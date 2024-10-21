@@ -8,10 +8,13 @@ export function Navbar() {
   const handlerToggle = () => {
     setIsOpen((prev) => !prev);
   };
+  const handlerToggleHome = () => {
+    setIsOpen(false);
+  };
   return (
     <header className="header">
       <div className="header__logo">
-        <Link onClick={handlerToggle} className="header__title" to="/">
+        <Link onClick={handlerToggleHome} className="header__title" to="/">
           Cali Aprende
         </Link>
       </div>
