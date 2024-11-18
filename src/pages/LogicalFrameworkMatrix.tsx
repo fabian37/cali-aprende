@@ -1,4 +1,4 @@
-import img from "../../public/matriz-marco-logico.png";
+import img from "../../public/logic-matrix_page-0001.jpg";
 
 export function LogicalFrameworkMatrix() {
   return (

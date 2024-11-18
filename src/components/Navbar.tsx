@@ -60,6 +60,11 @@ export function Navbar() {
               Matriz de marco lógico
             </Link>
           </li>
+          <li className="nav__list-item">
+            <Link onClick={handlerToggle} to="/planificacion-de-actividades">
+              Planificación de actividades
+            </Link>
+          </li>
           {/* <li className="nav__list-item">
             <Link onClick={handlerToggle} to="/bibliografia">
               Bibliografía

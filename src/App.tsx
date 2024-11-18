@@ -10,6 +10,7 @@ import { ObjectivesTree } from "./pages/ObjectivesTree";
 import { AlternativesAnalysis } from "./pages/AlternativesAnalysis";
 import { PrefeasibilityAnalysis } from "./pages/PrefeasibilityAnalysis";
 import { LogicalFrameworkMatrix } from "./pages/LogicalFrameworkMatrix";
+import { ActivityPlanning } from "./pages/ActivityPlanning";
 
 function App() {
   console.log("Qué haces aquí? 🤨");
@@ -37,6 +38,10 @@ function App() {
           <Route
             path="/matriz-de-marco-logico"
             element={<LogicalFrameworkMatrix />}
+          />
+          <Route
+            path="/planificacion-de-actividades"
+            element={<ActivityPlanning />}
           />
           {/* <Route path="/bibliografia" element={<Bibliography />} /> */}
         </Routes>
