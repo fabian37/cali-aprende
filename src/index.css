@@ -212,6 +212,11 @@ p {
   margin: 0 auto;
 }
 
+.iframe {
+  width: 80vw;
+  height: 70vh;
+}
+
 @media screen and (max-width: 1080px) {
   .app-container {
     padding: 0px 100px;

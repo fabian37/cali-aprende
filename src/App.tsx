@@ -11,6 +11,8 @@ import { AlternativesAnalysis } from "./pages/AlternativesAnalysis";
 import { PrefeasibilityAnalysis } from "./pages/PrefeasibilityAnalysis";
 import { LogicalFrameworkMatrix } from "./pages/LogicalFrameworkMatrix";
 import { ActivityPlanning } from "./pages/ActivityPlanning";
+import { ValueChain } from "./pages/ValueChain";
+import { BudgetModel } from "./pages/BudgetModel";
 
 function App() {
   console.log("Qué haces aquí? 🤨");
@@ -43,6 +45,8 @@ function App() {
             path="/planificacion-de-actividades"
             element={<ActivityPlanning />}
           />
+          <Route path="/cadena-de-valor" element={<ValueChain />} />
+          <Route path="/modelo-de-presupuestos" element={<BudgetModel />} />
           {/* <Route path="/bibliografia" element={<Bibliography />} /> */}
         </Routes>
         <Footer />

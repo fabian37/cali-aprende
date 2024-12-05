@@ -65,6 +65,16 @@ export function Navbar() {
               Planificación de actividades
             </Link>
           </li>
+          <li className="nav__list-item">
+            <Link onClick={handlerToggle} to="/cadena-de-valor">
+              Cadena de Valor
+            </Link>
+          </li>
+          <li className="nav__list-item">
+            <Link onClick={handlerToggle} to="/modelo-de-presupuestos">
+              Modelo de Presupuestos
+            </Link>
+          </li>
           {/* <li className="nav__list-item">
             <Link onClick={handlerToggle} to="/bibliografia">
               Bibliografía
