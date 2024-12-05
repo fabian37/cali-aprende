@@ -75,6 +75,11 @@ export function Navbar() {
               Modelo de Presupuestos
             </Link>
           </li>
+          <li className="nav__list-item">
+            <Link onClick={handlerToggle} to="/matriz-de-riesgo">
+              Matriz de riesgo
+            </Link>
+          </li>
           {/* <li className="nav__list-item">
             <Link onClick={handlerToggle} to="/bibliografia">
               Bibliografía
